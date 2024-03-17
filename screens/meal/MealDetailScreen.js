@@ -3,10 +3,10 @@ import { View, Text, Image, StyleSheet, ScrollView } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
 
 import IconButton from '../components/IconButton';
-import List from '../components/MealDetail/List';
-import Subtitle from '../components/MealDetail/Subtitle';
+import List from '../../components/MealDetail/List';
+import Subtitle from '../../components/MealDetail/Subtitle';
 import MealDetails from '../components/MealDetails';
-import { MEALS } from '../data/dummy-data';
+import { MEALS } from '../../data/dummy-data';
 import { addFavorite, removeFavorite } from '../store/redux/favorites';
 // import { FavoritesContext } from '../store/context/favorites-context';
 

@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux';
 
 import MealsList from '../components/MealsList/MealsList';
 // import { FavoritesContext } from '../store/context/favorites-context';
-import { MEALS } from '../data/dummy-data';
+import { MEALS } from '../../data/dummy-data';
 
 function FavoritesScreen() {
   // const favoriteMealsCtx = useContext(FavoritesContext);

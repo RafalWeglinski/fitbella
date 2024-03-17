@@ -8,12 +8,12 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
-import NumberContainer from '../components/game/NumberContainer';
-import Card from '../components/ui/Card';
-import InstructionText from '../components/ui/InstructionText';
-import PrimaryButton from '../components/ui/PrimaryButton';
+import NumberContainer from '../../components/game/NumberContainer';
+import Card from '../../components/ui/Card';
+import InstructionText from '../../components/ui/InstructionText';
+import PrimaryButton from '../../components/ui/PrimaryButton';
 import Title from '../components/ui/Title';
-import GuessLogItem from '../components/game/GuessLogItem';
+import GuessLogItem from '../../components/game/GuessLogItem';
 
 function generateRandomBetween(min, max, exclude) {
   const rndNum = Math.floor(Math.random() * (max - min)) + min;

@@ -9,11 +9,11 @@ import {
   ScrollView,
 } from 'react-native';
 
-import PrimaryButton from '../components/ui/PrimaryButton';
+import PrimaryButton from '../../components/ui/PrimaryButton';
 import Title from '../components/ui/Title';
 import Colors from '../constants/colors';
-import Card from '../components/ui/Card';
-import InstructionText from '../components/ui/InstructionText';
+import Card from '../../components/ui/Card';
+import InstructionText from '../../components/ui/InstructionText';
 
 function StartGameScreen({ onPickNumber }) {
   const [enteredNumber, setEnteredNumber] = useState('');
